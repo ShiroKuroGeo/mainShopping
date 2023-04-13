@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+   transition: all .2s linear;
+
+}
+html{   
+
+    font-size: 78%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    
+}
+body{
+    background-color: #eee;
+
+}
+.navbar.navbar-expand-lg{
+    background-color: lightgreen;
+    box-shadow: 0 0 3px #555 ;
+   
+}
+
+.bi.bi-recycle{
+    width: 2rem;
+    color:#fff;
+    margin-left: 2rem;
+}
+
+.bi.bi-chat-dots-fill{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 5px;
+}  
+ .bi.bi-chat-dots-fill:hover{
+    color: black;
+ }                                           
+.bi.bi-bell-fill{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 5px;
+
+
+}
+.bi.bi-bell-fill:hover{
+color: black; 
+}
+.bi.bi-images{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 5px;
+    background-color: none;
+}
+.bi.bi-images:hover{
+color: black;
+}
+
+hr{
+    width: 20rem;
+}
+.pic{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 15.5rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.pic:hover{
+    background-color: #eee;
+}
+.pic a{
+ text-decoration: none ;
+ color: black;
+ font-size: 15px;
+}
+.pic img{
+    width:4rem;
+    clip-path: circle();
+    margin-right:5px;
+}
+.home{
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.home:hover{
+    background-color: #eee;
+}
+.home a{
+    text-decoration: none ;
+ color: black;
+ font-size: 15px;
+}
+
+.bi.bi-house-door-fill{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 1rem
+}
+.message{
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.message:hover{
+    background-color: #eee;
+
+}
+.message a{
+    text-decoration: none ;
+    color: black;
+    font-size: 15px;
+}
+.notif{
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.notif:hover{
+    background-color: #eee;
+}
+.notif a{
+    text-decoration: none ;
+    color: black;
+    font-size: 15px;
+}
+.shop {
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.shop:hover{
+    background-color: #eee;
+}
+
+.bi.bi-basket2-fill{
+    width:2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 10px;
+
+}
+.shop a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.logout{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.logout:hover{
+    background-color: #eee;
+}
+.logout a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  
+}
+.bi.bi-box-arrow-right{
+    width:2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+.post{
+    margin-top: 2rem;
+   margin-left: 2.6rem;
+   width: 15rem;
+   height: 2.5rem;
+   border-radius: 2px;
+   background-color: none;
+   
+}
+
+.buttons{
+   color: black;
+   font-size: 15px;
+   background-color: #fff;
+   
+}
+.buttons:hover{
+   background-color: #eee;
+}
+.post:hover{
+   background-color: #eee;
+ 
+}
+.modal-title{
+   margin-left: 15rem;
+}
+.col-form-label{
+   margin-left: 2rem;
+}
+.name img{
+   width: 5rem;
+   clip-path: circle();
+   margin: 5px;
+}
+.mb-3 a{
+   text-decoration: none;
+   color: black;
+}
+.mb-3 textarea{
+   border: none;
+   height: 10rem;
+
+}
+.mb-3 input[type="file"]{
+   display: none;
+}
+.upload{
+   background-color: #eee;
+   cursor: pointer;
+   width: 55rem;
+   height: 3rem;
+   text-align: center;
+   box-shadow: 0 0 1px #555;
+}
+.upload:hover{
+   background-color: #e5e5e5;
+   color: black;
+}
+.container.mt-5{
+   background-color: #eee;
+   width: 60rem;
+   height: 60rem;
+   margin-top: 2rem;
+   box-shadow: 0 0 2px #555;
+}
+.prof a{
+   text-decoration: none;
+   color: #555;
+}
+
+.container.mt-5 col{
+   width: 50rem;
+   height: 60rem;
+}
+.figure .figure-caption{
+   margin-bottom: 1rem;
+   margin-top: none;
+   margin-left: 2rem;
+}
+
+.container-fluid a{
+    color: #fff;
+}
+.button{
+    border: none;
+    background-color: #eee;
+    color: black;
+    width: 10rem;
+}
+.button:hover{
+    background-color: #e5e5e5;
+}
+.form-control{
+    border: none;
+}
+
+
+
+.d-flex {
+    height: 3rem;
+    margin-left: 10rem;
+    margin-right: 5rem;   
+        text-decoration: none;
+        border-radius: 5px;
+        width: 40%;
+
+}
+.d-flex input{
+        margin-right: 5rem;    
+        border: none;
+        outline: none;
+
+    }
+
+.form .form-control{
+    width: 100%;
+}
+.button{
+    background-color:#fff;
+    width: 15%;
+    height: 3rem;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #e5e5e5;
+}
+
+.container{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 20rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 3px #555;
+}
+.container h2{
+    margin-top: 2rem;
+}
+input[type="file"]{
+height: 3rem;
+}
+
+ .image {
+    width: 15rem;
+    height: 11rem;
+    clip-path: circle();
+    margin-left: 43rem;
+    margin-top: 2rem;
+}
+
+.bi.bi-camera-fill{
+    width: 5rem;
+    height: 3rem;
+    color: black;
+    margin-right: 20rem;
+    margin-top: 10rem;
+    background-color: none;
+}
+.bi.bi-images:hover{
+color: black;
+}
+.buttons{
+    background-color:  #e5e5e5;
+}
+.modal-body button{
+    background-color: #eee;
+    margin-left: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    
+}
+.upload{
+    background-color: #eee;
+    cursor: pointer;
+    width: 55rem;
+    height: 3rem;
+    text-align: center;
+    box-shadow: 0 0 1px #555;
+}
+.card{
+    width: 20rem;
+    height: 15rem;
+    margin-left: 65rem;
+    
+}
+
+.card-img-top{
+    clip-path: circle();
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.card-body h5{
+    text-align: center;
+}
+.btn.btn-tertiary{
+    border: none;
+}
+.bi.bi-camera{
+    margin-left: 6rem;
+    width: 5rem;
+    height: 2rem;
+}
+.title{
+    margin-top: 3rem;
+    margin-left: 46rem;
+    font-size: 1rem;
+    color: #555;
+}

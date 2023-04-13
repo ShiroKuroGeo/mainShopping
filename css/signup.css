@@ -1,0 +1,129 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+ 
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 7rem;
+ }
+ 
+.logo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    display: inline;
+    color: #555;
+ }
+ 
+.fas.fa-shopping-basket{
+    font-size: 4rem;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    color: lightgreen;
+ }
+ .bi.bi-recycle{
+    width: 15rem;
+    height: 15rem;
+ }
+ .container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    box-shadow: 0 0 3px lightgreen;
+ }
+/* for login style */
+
+.container h1{
+    font-size: 25px;
+}
+.container h1 span{
+    color: green;
+}
+.form{
+    width: 600px;
+    height: 70vh;
+    background: #fff;
+    border-radius: 6px;
+    padding: 0 30px 30px;
+    box-shadow: 0 0 10px #555;
+    margin-left: 85px;
+}
+
+.open-form{
+    visibility: hidden;
+    top: 59%;
+    transform: translate(-50%, -50%)scale(1);
+}  
+
+.form input{
+    font-size: 12px;
+}
+
+.form img{
+    width: 130px;
+    margin-top: -60px;
+    border-radius: 70%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.form h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 500;
+  color: #555;
+}
+
+.form input{
+    border: 0.1px solid #555;
+    outline: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 94%;
+    height: 1.5rem;
+    margin: 10px;
+}
+.form a {
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 13rem;
+    color: #555;
+}
+
+
+.form button{
+    width: 96%;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: lightgreen;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #555;
+    margin-left: .8rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+#role{
+    opacity: 90%;
+    border: 0.1px solid green;
+    outline: none;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    width: 20%;
+    margin-top: 12px;
+}
+.form button:hover{
+    background-color: rgb(160, 242, 160);
+}

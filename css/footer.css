@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.footer{
+    border: 1px solid black;
+    background:#fff;
+    border: none;
+    width: 113%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color:var(--black);
+    padding:1rem 0;
+    margin-left: 28rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer .box-container .box .links{
+    display: inline;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem ;
+    margin-right:15rem;
+    text-decoration: none;
+}
+.footer .box-container .box .links:hover{
+    color: green;
+}
+ 
+.footer .box-container .box .links i{
+    color:#555;
+    padding-right: .5rem;
+}
+
+
+
+
+.footer .credit{
+    margin-top: 1rem;
+    padding:1rem;   
+    padding-top: 5rem;
+    margin-left: -150px;
+    font-size: 1.5rem;
+    color:var(--black);
+    border-top: var(--border);
+}
+
+.footer .credit span{
+    color:#33ff00;
+}

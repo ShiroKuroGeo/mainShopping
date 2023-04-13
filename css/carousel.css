@@ -1,0 +1,22 @@
+.carousel-item .d-block{
+    height: 30rem; 
+/*     object-fit:contain;
+ */
+}
+.roww-1 .carousel-item{
+     margin-top: 3rem;
+     margin-left: 1rem;
+     text-decoration: none;
+
+ }
+
+
+ .carousel-inner{
+    margin-top: 2rem;
+ }
+ .carousel-item.active{
+    margin-top: 2rem;
+ }
+ .carousel-item{
+    margin-top: 2rem;
+ }

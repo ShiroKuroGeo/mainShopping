@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+
+}
+body{
+    background-color: #eee;
+    overflow-y: scroll;
+
+}
+.navbar.navbar-expand-lg{
+    background-color: lightgreen;
+    box-shadow: 0 0 3px #555 ;
+   
+}
+
+.bi.bi-recycle{
+    width: 2rem;
+    color:#fff;
+    margin-left: 2rem;
+}
+
+.container-fluid a{
+    color: #fff;
+}
+.button{
+    border: none;
+    background-color: #eee;
+    color: black;
+    width: 10rem;
+}
+.button:hover{
+    background-color: #e5e5e5;
+}
+.form-control{
+    border: none;
+}
+
+.d-flex {
+    height: 3rem;
+    margin-left: 10rem;
+    margin-right: 5rem;   
+        text-decoration: none;
+        border-radius: 5px;
+        width: 40%;
+
+}
+.d-flex input{
+        margin-right: 5rem;    
+        border: none;
+        outline: none;
+
+    }
+
+.form .form-control{
+    width: 100%;
+}
+.button{
+    background-color:#fff;
+    width: 15%;
+    height: 3rem;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #e5e5e5;
+}
+.bi.bi-chat-dots-fill{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 5px;
+}  
+ .bi.bi-chat-dots-fill:hover{
+    color: black;
+ }                                           
+.bi.bi-bell-fill{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 5px;
+
+
+}
+.bi.bi-bell-fill:hover{
+color: black; 
+}
+.bi.bi-images{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 5px;
+    background-color: none;
+}
+.bi.bi-images:hover{
+color: black;
+}
+
+.nav-item{
+    width: 50px;
+    background: #eee;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 5px;
+}
+/* user picture style */
+
+ .side-nav{
+    position: fixed;
+} 
+hr{
+    width: 20rem;
+}
+.pic{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 15.5rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.pic:hover{
+    background-color: #eee;
+}
+.pic a{
+ text-decoration: none ;
+ color: black;
+ font-size: 15px;
+}
+.home{
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.home:hover{
+    background-color: #eee;
+}
+.home a{
+    text-decoration: none ;
+ color: black;
+ font-size: 15px;
+}
+
+.bi.bi-house-door-fill{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 1rem
+}
+.message{
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.message:hover{
+    background-color: #eee;
+
+}
+.message a{
+    text-decoration: none ;
+    color: black;
+    font-size: 15px;
+}
+.notif{
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.notif:hover{
+    background-color: #eee;
+}
+.notif a{
+    text-decoration: none ;
+    color: black;
+    font-size: 15px;
+}
+.shop {
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.shop:hover{
+    background-color: #eee;
+}
+
+.bi.bi-basket2-fill{
+    width:2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 10px;
+
+}
+.shop a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.logout{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+.logout:hover{
+    background-color: #eee;
+}
+.logout a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  
+}
+.bi.bi-box-arrow-right{
+    width:2rem;
+    height: 2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+.col-form-label{
+width: 4rem;
+margin-left: 2rem;
+box-shadow: #525252;
+clip-path: circle();
+}
+.post{
+     margin-top: 2rem;
+    margin-left: 2.6rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2px;
+    background-color: none;
+    
+}
+
+.buttons{
+    color: black;
+    font-size: 15px;
+    background-color: #fff;
+    
+}
+.buttons:hover{
+    background-color: #eee;
+}
+.post:hover{
+    background-color: #eee;
+  
+}
+.modal-title{
+    margin-left: 15rem;
+}
+.col-form-label{
+    margin-left: 2rem;
+}
+.mb-3 a{
+    text-decoration: none;
+    color: black;
+}
+.mb-3 textarea{
+    border: none;
+    height: 10rem;
+
+}
+.mb-3 input[type="file"]{
+    display: none;
+}
+.upload{
+    background-color: #eee;
+    cursor: pointer;
+    width: 55rem;
+    height: 3rem;
+    text-align: center;
+    box-shadow: 0 0 1px #555;
+}
+.upload:hover{
+    background-color: #e5e5e5;
+    color: black;
+}
+.container.mt-5{
+    background-color: #eee;
+    width: 60rem;
+    margin-left: 50rem;
+    height: 59rem;
+    box-shadow: 0 0 2px #555;
+}
+.prof a{
+    text-decoration: none;
+    color: #555;
+}
+.container.mt-5 col{
+    width: 50rem;
+    height: 60rem;
+}
+.figure .figure-caption{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}

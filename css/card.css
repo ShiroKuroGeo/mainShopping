@@ -1,0 +1,130 @@
+.rows{
+    width: 95%;
+    height: 50rem;
+    margin-left: 4rem;
+    margin-top: 15rem;
+    display: inline-flex; 
+    background-color:lightgreen;
+    box-shadow: 0 0 3px  #eee;
+     
+
+
+}
+.col-md-20{
+    margin-top:3rem;
+    width: 50rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    display: inline-flex;
+} 
+
+ .row-1{
+    margin-left: 2rem;
+    width: 40rem;
+    height: 50rem;
+    
+
+ }
+
+.row-2{
+    margin-top: 5rem;
+    width: 35rem;
+    height: 45rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: #fff;
+
+}
+
+.row-3{
+    margin-top: 4rem;
+    width: 50rem;
+    height: 45rem;
+    margin: 5rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.row-1 .card{
+    margin-left: 23rem;
+    width: 50rem;
+    height: 38rem;
+    text-decoration: none;
+}
+
+.row-1 .card-img-top{
+    padding: 2rem;
+    height: 50rem;
+    margin-left: 10rem;
+    width: 30rem;
+    object-fit: contain;
+    text-decoration: none;
+}
+ .row .card-2{
+    width: 15rem;
+    margin-left: 13rem;
+    text-decoration: none;
+}
+
+.row .card-2:hover{
+    border: 2px solid green;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    text-decoration: none;
+}
+.text{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+ .btn.btn-outline-success{ 
+    text-align: center;   
+   font-size: 1.2rem;
+   margin-left: 16rem;
+   height: 4rem;
+   width: 12rem;
+   border: none;
+   text-decoration: none;
+   background-color: #fff;
+}
+.btn.btn-outline-success:hover{
+    background-color: #eee;
+    color: black;
+    border: none;
+}
+
+.shop{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin-top: 50rem;
+    overflow: hidden;
+   
+}
+
+.bi.bi-shop{
+    width: 3rem;
+    color: green;
+    margin-right: 2rem;
+    margin-left: 6rem;
+    text-decoration: none;
+}
+
+

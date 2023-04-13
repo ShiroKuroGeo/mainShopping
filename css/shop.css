@@ -1,0 +1,37 @@
+.container.text-center{
+    margin-top: 10rem;
+    height: 20rem;
+    background-color: lightgreen;
+    box-shadow: 0 0 3px #eee;
+}
+
+.row.align-items-end{
+    font-size: 20px; 
+}
+.dropdown-toggle{
+    background-color: lightgreen;
+}
+.row.align-items-end .col{
+    margin-top: 1.8rem;
+}
+.text{
+       text-decoration: none;
+       color: black;
+
+}
+.image{
+    margin-top: 2rem;
+    clip-path: circle();
+    width: 10rem;
+    margin-bottom: 1.5rem;
+}
+h3{
+    text-align: center;
+}
+
+h1{
+    background-color: none;
+}
+
+
+

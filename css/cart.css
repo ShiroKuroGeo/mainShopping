@@ -1,0 +1,126 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+.container{
+    margin-top: 10rem;
+}
+
+thead{
+    height: 5rem;
+    background-color: lightgreen;
+    box-shadow: 0 0  3px #eee;
+    font-size: 1.5rem;
+    color: #555;
+    border: none;
+    text-align: center;
+}
+tbody{
+    box-shadow: 0 0  3px #eee;
+
+}
+.tr{
+    height: 5rem;
+    background-color: #eee;
+    box-shadow: 0 0  1px 1px  lightgray;
+    border: lightgray;
+}
+
+ .user{
+    text-decoration: none;
+    color: #555;
+/*     font-size: 1.2rem;
+ */    margin-top: 5rem;
+    text-align: center;
+}
+
+.bi.bi-shop{
+    width: 1.5rem;
+    margin: 5px;
+    text-align: left;
+    color: green;
+    
+}
+.checkbox{
+    border: none;
+    font-size: large;
+}
+td input{
+    width: 10rem;
+    margin-top: 5rem;
+    height: 2rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+/*     box-shadow: 0 0  1px #555;
+ */}
+ td input:hover{
+  background-color: lightgreen;
+ }
+
+td h4{
+    margin-top: 5rem;
+}
+td button{
+    margin-top: 4.5rem;  
+}
+
+.delete{
+    width: 10rem;
+    border: 1px solid black;
+    height: 2rem;
+}
+.delete:hover{
+    background-color: red;
+}
+/* .tr_2{
+    background-color: #eee;
+    font-size: 1.5rem;
+
+}
+.tr_2 .text{
+    margin-top: 5rem;
+} */
+.image{
+    border-radius: 2rem;
+    box-shadow:0 0 2px #555;
+    margin-right: 6rem;
+}
+
+.checkout{
+    width: 10rem;
+    margin-left: 80rem;
+    padding: 5px;
+    display:inline-flex;
+    position: sticky ;
+
+}
+
+.checkout a{
+    text-decoration: none;
+    text-align: end;
+}
+
+.checkout h3{
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 10rem;
+    height: 3rem;
+    padding: 9px;
+    text-align: center;
+    margin: 2px;
+    font-size: 15px;
+    color: black;
+    box-shadow: 0 0 3px lightgreen;   
+}
+
+.checkout h3:hover{
+    background-color: lightgray;
+}
+.checkout h4{
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+
+
+
